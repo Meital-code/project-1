@@ -24,14 +24,5 @@ const ShowPerson=async(req,res)=>{
     res.status(404).send('error')
 }}
 
-// const ShowAllPersons=async(req,res)=>{
-//     try{
-//         const allPersons=await PersonModel.findById(req.params.id)
-//         res.status(200).json({person:person});
-//     }catch (error) {
-//         res.status(404).send('error')
-//     }
 
-
-//ShowAllPersons
 module.exports={CreatePerson,ShowPerson}
